@@ -1,0 +1,45 @@
+.left-sports-wrapper {
+    width: 35%;
+    padding-left: 25px;
+    top: 0;
+    display: flex;
+    /* align-items: flex-end; */
+    flex-direction: column;
+}
+
+.sports-text-wrapper {
+    margin-left: 100px;
+}
+
+.right-sports-wrapper {
+    max-width: 100%;
+    padding-left: 25px;
+}
+
+.highlight-1 {
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    float: right;
+    padding-top: 50px;
+}
+
+.highlight-2 {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    right: 350px;
+    bottom: 0;
+}
+
+.highlight-3 {
+    height: 500px;
+    width: auto;
+    position: absolute;
+    padding-left: 200px;
+    bottom: 0;
+}
+
+
+
+

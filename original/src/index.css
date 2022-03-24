@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "gilroy";
+    src: local('gilroy'), url('./Fonts/gilroy/webFonts/Gilroy-Light/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "hackney";
+    src: local('hackney'), url('./Fonts/hackney/webfonts/hackney-vector.woff') format('woff');
+}
+
+@font-face {
+    font-family: "oakes-grotesk";
+    src: local('oakes-grotesk'), url('./Fonts/oakes-grotesk/oakes-grotesk-medium/webfonts/oakes-grotesk-medium.woff') format('woff');
+}

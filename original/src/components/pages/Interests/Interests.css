@@ -1,0 +1,47 @@
+.interests-header-container {
+    height: 80vh;
+    width: 100%;
+}
+
+.interests-header-wrapper {
+    background-color: #e9e9e9;
+    /* position: fixed; */
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.interests-background {
+    height: 300px;
+    width: auto;
+    position: fixed;
+    bottom: 30%;
+    right: 10%;
+    z-index: 0;
+}
+
+.interests-text-wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.other-works-wrapper {
+    display: flex;
+}
+
+.other {
+    font-family: hackney;
+    font-size: 150px;
+    padding-top: 50px;
+}
+
+.works {
+    font-family: hackney;
+    font-size: 275px;
+}

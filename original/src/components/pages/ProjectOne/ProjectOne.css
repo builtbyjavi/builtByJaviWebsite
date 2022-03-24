@@ -1,0 +1,13 @@
+
+.work-header {
+    height: 80vh;
+    justify-content: center;
+}
+
+
+.work-header-text {
+    font-family: oakes-grotesk;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 400px;
+}

@@ -1,0 +1,17 @@
+
+
+.work-text-wrapper-reverse {
+    padding: 75px;
+}
+
+.work-img-wrapper-reverse {
+    margin-right: -75px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .work-text-wrapper {
+        padding-bottom: 65px;
+    }
+}
