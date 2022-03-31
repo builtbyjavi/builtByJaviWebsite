@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaMedium } from 'react-icons/fa';
 import './Button.css';
 
 const STYLES = ['btn--primary', 'btn--outline']

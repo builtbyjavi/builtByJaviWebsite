@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes, FaPencilAlt } from 'react-icons/fa';
+import { FaBars, FaTimes} from 'react-icons/fa';
 import './Navbar.css';
 import {IconContext} from 'react-icons/lib';
 import '../index.css';

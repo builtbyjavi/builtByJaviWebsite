@@ -28,6 +28,7 @@ function Footer() {
               href='https://www.youtube.com/channel/UC8ctY8xrQV-TZiiorJh1KKA'
               target='_blank'
               aria-label='Youtube'
+              rel="noopener noreferrer"
             >
               <FaYoutube />
             </a>
@@ -36,6 +37,7 @@ function Footer() {
               href='https://www.behance.net/builtbyjavi'
               target='_blank'
               aria-label='Behance'
+              rel="noopener noreferrer"
             >
               <FaBehance />
             </a>
@@ -44,6 +46,7 @@ function Footer() {
               href='https://www.linkedin.com/in/javier-cardenas/'
               target='_blank'
               aria-label='LinkedIn'
+              rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
@@ -52,6 +55,7 @@ function Footer() {
               href='https://dribbble.com/builtByJavi'
               target='_blank'
               aria-label='Dribble'
+              rel="noopener noreferrer"
             >
               <FaDribbble />
             </a>

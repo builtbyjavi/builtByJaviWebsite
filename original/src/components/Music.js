@@ -21,7 +21,7 @@ function Music({
                     </div>
                         
                     <iframe style={{borderRadius: "10px"}} src="https://open.spotify.com/embed/artist/1UHOKeroZ6uopPhQDeosV8?utm_source=generator" 
-                        width="100%" height="380" frameBorder="0" allowfullscreen="" 
+                        title="spotify player" width="100%" height="380" frameBorder="0" allowfullscreen="" 
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
                     </iframe>
                     
@@ -46,7 +46,7 @@ function Music({
                     </div>
                     <div className="website-wrapper">
                         <a href="https://www.javimusiq.com" target="_blank" className="music-desc-link">
-                            <img style={{borderRadius: "10px"}} src={webImg} className="website-img"/>
+                            <img style={{borderRadius: "10px"}} src={webImg} className="website-img" alt="javiMusiq Website Screenshot" rel="noopener noreferrer"/>
                         </a>
                         
                     </div>

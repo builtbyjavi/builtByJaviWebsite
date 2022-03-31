@@ -29,31 +29,31 @@ function VideoGrid({
                             <Grid item xs={3} className='grid-item-wrapper grid-item-border1'>
                                 {/* <h3 className="drawing-text">portrait</h3> */}
                                 <Paper square={true}  className="grid-item-paper">
-                                    <img src={img1} className="grid-img"/>
+                                    <img src={img1} className="grid-img" alt="illustrated portrait of Javi"/>
                                 </Paper>
                             </Grid>
                             <Grid item xs={6} className='grid-item-wrapper grid-item-border2'>
                                 {/* <h3 className="drawing-text">portrait</h3> */}
                                 <Paper square={true} className="grid-item-paper">
-                                    <img src={img2} className="grid-img"/>
+                                    <img src={img2} className="grid-img" alt="illustrated artwork of tree and children"/>
                                 </Paper>
                             </Grid>
                             <Grid item xs={3} className='grid-item-wrapper grid-item-border3'>
                                 {/* <h3 className="drawing-text">portrait</h3> */}
                                 <Paper square={true} className="grid-item-paper">
-                                    <img src={img3} className="grid-img"/>
+                                    <img src={img3} className="grid-img" alt="illustrated portrait of Javi"/>
                                 </Paper>
                             </Grid>
                             <Grid item xs={6} className='grid-item-wrapper grid-item-border4'>
                                 {/* <h3 className="drawing-text">portrait</h3> */}
                                 <Paper square={true} className="grid-item-paper">
-                                    <img src={img4} className="grid-img"/>
+                                    <img src={img4} className="grid-img" alt="illustrated artwork of tree and children"/>
                                 </Paper>
                             </Grid>
                             <Grid item xs={6} className='grid-item-wrapper grid-item-border5'>
                                 {/* <h3 className="drawing-text">portrait</h3> */}
                                 <Paper square={true} className="grid-item-paper">
-                                    <img src={img5} className="grid-img"/>
+                                    <img src={img5} className="grid-img" alt="illustrated artwork of tree and children"/>
                                 </Paper>
                             </Grid>
                             

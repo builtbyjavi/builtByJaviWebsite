@@ -1,7 +1,6 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import { Link } from 'react-router-dom';
 import './Photography.css';
 import { RiArrowDownLine } from 'react-icons/ri';
 
@@ -21,7 +20,7 @@ function Photography({
                 </h2>
             </div>
             <div className="top-photo-wrapper">
-                <img src='/images/photoPortrait.jpg' className="photo-portrait"/>
+                <img src='/images/photoPortrait.jpg' className="photo-portrait" alt="Man posing with camera"/>
             </div>
             <div className="description-wrapper">
                 <h3 className="interests-description">
@@ -40,21 +39,21 @@ function Photography({
                 <Grid container spacing={1} className="p-grid">
                     <Grid item xs={4} className='p-grid-item-wrapper'>
                         <Paper style={{borderRadius: "10px"}} square={false}  className="p-grid-item-paper">
-                            <a href="https://flic.kr/ps/3YybVp" target="_blank"> 
-                                <img src={pimg1} className="p-grid-img"/>
+                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer"> 
+                                <img src={pimg1} className="p-grid-img" alt="green field"/>
                             </a>
                         </Paper>
                     </Grid>
                     <Grid item xs={4} className='p-grid-item-wrapper'>
                         <Paper style={{borderRadius: "10px"}} square={false} className="p-grid-item-paper">
-                            <a href="https://flic.kr/ps/3YybVp" target="_blank"> 
+                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer" alt="golden gate bridge at night"> 
                                 <img src={pimg2} className="p-grid-img"/>
                             </a>
                         </Paper>
                     </Grid>
                     <Grid item xs={4} className='p-grid-item-wrapper'>
                         <Paper style={{borderRadius: "10px"}} square={false} className="p-grid-item-paper">
-                            <a href="https://flic.kr/ps/3YybVp" target="_blank"> 
+                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer" alt="half dome and el cap at Yosemite"> 
                                 <img src={pimg3} className="p-grid-img"/>
                             </a>
                         </Paper>
