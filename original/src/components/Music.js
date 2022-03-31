@@ -1,6 +1,6 @@
 import React from 'react';
 import './Music.css';
-import { RiArrowRightLine } from 'react-icons/ri';
+import { RiArrowDownLine } from 'react-icons/ri';
 
 function Music({
 
@@ -11,36 +11,44 @@ function Music({
         <div className="interests-container">
             <div className="interests-content-wrapper">
                 <div className="left-music-wrapper">
-                    <iframe src="https://www.youtube.com/embed/xeFRgRwkydo" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" className="performance-1" allowfullscreen></iframe>
-                    
-                    <iframe src="https://www.youtube.com/embed/Wk7wZBjdlrc"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" className="performance-2" allowfullscreen></iframe>
-                </div>
-
-                <div className="right-music-wrapper">
-                    <div className="music-text-wrapper">
+                    <div className="header-text-wrapper">
                         <h1 className="interests-header">
                             Music
                         </h1>
                         <h2 className="interests-subHeader">
                             I like to make noise.
                         </h2>
+                    </div>
+                        
+                    <iframe style={{borderRadius: "10px"}} src="https://open.spotify.com/embed/artist/1UHOKeroZ6uopPhQDeosV8?utm_source=generator" 
+                        width="100%" height="380" frameBorder="0" allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                    </iframe>
+                    
+                </div>
+
+                <div className="right-music-wrapper">
+                    <iframe style={{borderRadius: "10px"}} src="https://www.youtube.com/embed/xeFRgRwkydo" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" className="performance-1" allowfullscreen>
+                    </iframe>
+                    
+                    <div className="music-text-wrapper">
                         <h3 className="interests-description">
                             view my artist website &nbsp;
-                            <RiArrowRightLine className="arrow-1"></RiArrowRightLine>
-                            <RiArrowRightLine className="arrow-2"></RiArrowRightLine>
-                            <RiArrowRightLine className="arrow-3"></RiArrowRightLine>
-                            &nbsp;
-                            <a href="https://www.javimusiq.com" target="_blank" className="music-desc-link">
-                                @javimusiq.com
-                            </a>
                         </h3>
+                        <div className="arrows-container">
+                            <RiArrowDownLine className="arrow-1"></RiArrowDownLine>
+                            <RiArrowDownLine className="arrow-2"></RiArrowDownLine>
+                            <RiArrowDownLine className="arrow-3"></RiArrowDownLine>
+                        </div>  
+                        
                     </div>
                     <div className="website-wrapper">
-                        <img src={webImg} className="website-img"/>
+                        <a href="https://www.javimusiq.com" target="_blank" className="music-desc-link">
+                            <img style={{borderRadius: "10px"}} src={webImg} className="website-img"/>
+                        </a>
+                        
                     </div>
                     
                 </div>

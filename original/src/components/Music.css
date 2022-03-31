@@ -1,69 +1,45 @@
-.interests-container {
-    height: 100vh;
-    background-color: #f5f5f5;
-    z-index: 1;
-}
-
-.interests-content-wrapper {
-    display: flex;
-    max-width: 2100px;
-    margin: 0 auto;
-    padding: 0 100px;
-    position: relative;
-    height: 100%;
+.header-text-wrapper {
+    padding-bottom: 2rem;
 }
 
 .left-music-wrapper {
-    width: 65%;
-    padding-right: 25px;
+    width: 50%;
+    height: 100%;
+    align-self: flex-start;
+    padding: 1.5rem;
 }
 
 .performance-1 {
-    max-width: 100%;
-    width: 1000px;
-    height: 500px;
-    margin: -50px 0 0 -100px;
+    width: 100%;
+    height: auto;
 }
 
 .performance-2 {
-    float: right;
-    width: 800px;
-    max-width: 100%;
-    height: 400px;
-    margin: 250px 150px 0 0;
+    width: 100%;
+    height: auto;
 }
 
 .right-music-wrapper {
-    width: 35%;
-    padding-left: 25px;
-    top: 0;
+    width: 50%;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.right-music-wrapper iframe{
+    min-height: 300px;
 }
 
 .music-text-wrapper {
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
 }
 
-.interests-header {
-    font-family: hackney;
-    font-size: 150px;
-    padding-top: 25px;
-}
-
-.interests-subHeader {
-    font-family: oakes-grotesk;
-    padding-bottom: 25px;
-    font-size: 24px;
-    padding-left: 10px;
-}
-
-.interests-description {
-    font-family: oakes-grotesk;
-    padding-top: 150px;
-    padding-bottom: 25px;
-    font-size: 24px;
+.arrows-container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
 }
 
 .music-desc-link {
@@ -77,11 +53,17 @@
 
 .website-wrapper {
     width: 100%;
+    padding-top: 1rem;
 }
 
 .website-img {
     height: auto;
     width: 100%; 
+}
+
+.website-img:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;;
+    transform: translate3d(0px, -4px, 0px);
 }
 
 .arrow-1 {

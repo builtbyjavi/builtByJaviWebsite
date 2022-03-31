@@ -26,41 +26,32 @@ function Navbar() {
                 </div>
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <div className="menu-left">
-                        <li className="nav-item">
-                            <Link to="/about" className={"nav-links" + (location === "/portfolio" ? "outlined" : '')} onClick={closeMobileMenu}>
-                                About
-                            </Link>
-                        </li>
-                        <li className="nav-item-inner">
-                            <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
-                                Portfolio
-                            </Link>
-                        </li>
-                    </div>
-                    
-                    <div className="menu-center">
-                        <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                            <img src="images/builtByJaviLogo.png" className="navbar-logo-img"></img>
+                    <li className="nav-item">
+                        <Link to="/about" className={"nav-links" + (location === "/portfolio" ? "outlined" : '')} onClick={closeMobileMenu}>
+                            About
                         </Link>
-                        <p className="logoHomeText">HOME</p>
-                        
-                    </div>
-
-                    <div className="menu-right">
-                        <li className="nav-item nav-item-inner">
-                            <Link to="/interests" className="nav-links" onClick={closeMobileMenu}>
-                                Interests
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-                                Contact
-                            </Link>
-                        </li>
-                    </div>
-                    
-                    
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
+                            Portfolio
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to='/' className="navbar-logo nav-links" onClick={closeMobileMenu}>
+                        <img src="images/builtByJaviLogo.png" className="navbar-logo-img"></img>
+                        <p>HOME</p>
+                    </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/interests" className="nav-links" onClick={closeMobileMenu}>
+                            Interests
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
       
             </div> 

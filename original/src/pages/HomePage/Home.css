@@ -1,0 +1,44 @@
+
+.selected-works-container {
+    height: 100vh;
+    width: 100vw;
+    background-color:  #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.selected-works-wrapper {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 5rem 0 5rem;
+}
+
+.selected {
+    font-family: hackney;
+    font-size: 10em;
+}
+
+.works {
+    font-family: hackney;
+    font-size: 15em;
+}
+
+.arrow-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3rem;
+}
+
+.scroll-arrow {
+    font-size: 4rem;
+    color: #c2c2c2;
+}
+
+.scroll-arrow:hover {
+    color: #f00946;
+}

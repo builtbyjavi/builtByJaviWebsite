@@ -8,37 +8,32 @@ function Work({
     return (
         <>
             <div className="work-container">
-                <div className="work-wrapper">
-
-                    <div className="work-text-wrapper">
-                        <div className="fraction-wrapper">
-                            <h3 className="fraction">
-                                {order}
-                            </h3>
-                        </div>
-                        <Link to={workPage} className="link-wrapper">
-                            <h1 className="link-text">
-                                {headLine}
-                            </h1>
-                        </Link>
-                        <div className="desc-wrapper">
-                            <p className="work-description">
-                                {description}
-                            </p>
-                        </div>
-                        
+                <div className="work-text-wrapper">
+                    <div className="fraction-wrapper">
+                        <h3 className="fraction">
+                            {order}
+                        </h3>
                     </div>
-                            
-                    <div className="work-img-wrapper">
-                        <Link to={workPage}>
-                            <img src={img} alt={alt} className="work-img">
-                            </img>
-                        </Link>
+                    <Link to={workPage} className="link-wrapper">
+                        <h1 className="link-text">
+                            {headLine}
+                        </h1>
+                    </Link>
+                    <div className="desc-wrapper">
+                        <p className="work-description">
+                            {description}
+                        </p>
                     </div>
-
+                </div>  
+                <div className="work-img-wrapper">
+                    <Link to={workPage} className="img-link-wrapper">
+                        <img src={img} alt={alt} className="work-img">
+                        </img>
+                    </Link>
                 </div>
 
             </div>
+
         </>
     )
 }

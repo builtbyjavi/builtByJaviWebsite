@@ -10,6 +10,10 @@ function Sports({
         <div className="interests-container">
             <div className="interests-content-wrapper">
                 <div className="left-sports-wrapper">
+                    <img src={vid2} className="highlight-2"/>
+                    <video src={vid1} autoPlay muted loop className="highlight-1"/>
+                </div>
+                <div className="right-sports-wrapper">
                     <div className="sports-text-wrapper">
                         <h1 className="interests-header">
                             Sports
@@ -17,15 +21,9 @@ function Sports({
                         <h2 className="interests-subHeader">
                             I like to be active.
                         </h2>
-                        
                     </div>
+                    <img src={vid3} className="highlight-3"/>
                     
-                </div>
-                <img src={vid3} className="highlight-3"/>
-                
-                <div className="right-sports-wrapper">
-                    <video src={vid1} autoPlay muted loop className="highlight-1"/>
-                    <img src={vid2} className="highlight-2"/>
                 </div>
             </div>
             

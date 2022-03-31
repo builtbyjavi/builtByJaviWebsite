@@ -1,33 +1,35 @@
-.work-container {
-    height: 50vh;
-    background-color: #f5f5f5;
-}
 
-.work-wrapper {
-    position: relative;
-    padding: 100px 0;
-    max-width: 1500px;
-    margin: 0 auto;
+.work-container {
+    background-color: #f5f5f5;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
 }
 
 .work-text-wrapper {
-    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-self: start;
+    padding: 0 2rem;
     z-index: 1;
-    margin: 0 100px;
 }
 
 .fraction {
     font-family: hackney;
-    font-size: 100px;
+    font-size: 5em;
 }
 
 .link-wrapper {
     text-decoration: none;
+    width: 100%;
+    height: auto;
 }
 
 .link-text {
     font-family: oakes-grotesk;
-    font-size: 75px;
+    font-size: 3em;
     color: black;
     transition: color 150ms ease-out;
 }
@@ -37,25 +39,37 @@
 }
 
 .desc-wrapper {
-    max-width: 500px;
-    padding: 50px 0;
+    width: 100%;
+    padding: 2em 0;
+    height: auto;
 }
+
 .work-description {
     font-family: oakes-grotesk;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: lighter;
 }
 
 .work-img-wrapper {
-    width: 100%;
+    max-width: 60%;
     height: 100%;
-    padding: 0 100px 0 0;
+    width: 100%;
+}
+
+.img-link-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .work-img {
     transition: all 200ms ease-out;
-    max-height: 450px;
-    float: right;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .work-img:hover {
