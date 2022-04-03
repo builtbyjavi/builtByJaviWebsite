@@ -2,36 +2,35 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './Work.css';
 
-function Work({
-    headLine, order, img, alt, workPage, description
-}) {
+function Work(props) {
     return (
-        <>
+        <>  
             <div className="work-container">
                 <div className="work-text-wrapper">
                     <div className="fraction-wrapper">
                         <h3 className="fraction">
-                            {order}
+                            {props.order}
                         </h3>
                     </div>
-                    <Link to={workPage} className="link-wrapper">
+                    <Link to={props.workPage} className="link-wrapper" 
+                        state={props}>
                         <h1 className="link-text">
-                            {headLine}
+                            {props.headLine}
                         </h1>
                     </Link>
                     <div className="desc-wrapper">
                         <p className="work-description">
-                            {description}
+                            {props.description}
                         </p>
                     </div>
                 </div>  
                 <div className="work-img-wrapper">
-                    <Link to={workPage} className="img-link-wrapper">
-                        <img src={img} alt={alt} className="work-img">
+                    <Link to={props.workPage} className="img-link-wrapper" 
+                        state={props}>
+                        <img src={props.img} alt={props.alt} className="work-img">
                         </img>
                     </Link>
                 </div>
-
             </div>
 
         </>

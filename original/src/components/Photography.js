@@ -46,15 +46,15 @@ function Photography({
                     </Grid>
                     <Grid item xs={4} className='p-grid-item-wrapper'>
                         <Paper style={{borderRadius: "10px"}} square={false} className="p-grid-item-paper">
-                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer" alt="golden gate bridge at night"> 
-                                <img src={pimg2} className="p-grid-img"/>
+                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer"> 
+                                <img src={pimg2} className="p-grid-img" alt="golden gate bridge at night"/>
                             </a>
                         </Paper>
                     </Grid>
                     <Grid item xs={4} className='p-grid-item-wrapper'>
                         <Paper style={{borderRadius: "10px"}} square={false} className="p-grid-item-paper">
-                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer" alt="half dome and el cap at Yosemite"> 
-                                <img src={pimg3} className="p-grid-img"/>
+                            <a href="https://flic.kr/ps/3YybVp" target="_blank" rel="noopener noreferrer"> 
+                                <img src={pimg3} className="p-grid-img" alt="half dome and el cap at Yosemite"/>
                             </a>
                         </Paper>
                     </Grid>      

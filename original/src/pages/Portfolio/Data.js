@@ -6,7 +6,7 @@ export const javiMusiq = {
   workPage: './Projects',
   projectLink: 'https://www.javimusiq.com',
   img: 'images/website-img.jpg',
-  alt: 'mamaMarthaLogo'
+  alt: 'javiMusiq website image'
 
 };
 
@@ -17,7 +17,7 @@ export const jMWise = {
   workPage: './Projects',
   projectLink: 'https://www.jmwisewriting.com',
   img: 'images/jmwise.jpg',
-  alt: 'comeThruLogo'
+  alt: 'jmwise website image'
 
 };
 
@@ -28,7 +28,7 @@ export const cesarPacheco = {
   workPage: './Projects',
   projectLink: 'https://www.cesarpacheco.com',
   img: 'images/cesarpacheco.png',
-  alt: 'javiMusiqLogo'
+  alt: 'cesar pacheco website image'
 
 };
 
@@ -39,7 +39,7 @@ export const yelpCamp = {
   workPage: './Projects',
   projectLink: 'https://www.serene-ocean-50336.herokuapp.com/',
   img: 'images/yelpCamp.png',
-  alt: 'yelpCamp'
+  alt: 'yelpCamp website image'
 
 };
 
@@ -50,7 +50,7 @@ export const weCedYouth = {
   workPage: './Projects',
   projectLink: '',
   img: 'images/WeCedCover.jpg',
-  alt: 'javiMusiqLogo'
+  alt: 'weced youth illustration'
 
 };
 
@@ -61,7 +61,7 @@ export const mamaMarthas = {
   workPage: './Projects',
   projectLink: '',
   img: 'images/mamaMarthaLogo.png',
-  alt: 'javiMusiqLogo'
+  alt: 'mamaMartha logo'
 };
 
 export const amCafecito = {
@@ -71,5 +71,5 @@ export const amCafecito = {
   workPage: './Projects',
   projectLink: '',
   img: 'images/logo.jpg',
-  alt: 'javiMusiqLogo'
+  alt: 'amCafecito logo'
 };

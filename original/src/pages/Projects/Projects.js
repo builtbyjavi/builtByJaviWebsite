@@ -1,15 +1,19 @@
 import React from 'react';
-import Project from '../../components/Project';
+import { useLocation } from 'react-router-dom';
 import './Projects.css';
-import {yelpCamp} from '../Portfolio/Data';
 
 
-function Projects({
-}) { 
+function Projects() { 
+
+    const location = useLocation();
     
     return (
         <>
-            <Project {...yelpCamp}/>
+            <div className='project-container'>
+                {/* {console.log(location.state)} */}
+                <h1 className="project-link-text">project show page coming soon!</h1>
+            </div>        
+            
         </>
     )
 }

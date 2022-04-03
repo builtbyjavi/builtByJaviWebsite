@@ -45,8 +45,8 @@ function Music({
                         
                     </div>
                     <div className="website-wrapper">
-                        <a href="https://www.javimusiq.com" target="_blank" className="music-desc-link">
-                            <img style={{borderRadius: "10px"}} src={webImg} className="website-img" alt="javiMusiq Website Screenshot" rel="noopener noreferrer"/>
+                        <a href="https://www.javimusiq.com" target="_blank" className="music-desc-link" rel="noopener noreferrer">
+                            <img style={{borderRadius: "10px"}} src={webImg} className="website-img" alt="javiMusiq Website Screenshot" />
                         </a>
                         
                     </div>

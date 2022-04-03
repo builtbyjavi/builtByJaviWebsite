@@ -37,7 +37,6 @@ function Home() {
                 <Work {...yelpCamp} />
                 <Work {...jMWise} />
             </div>
-            
         </>
     );
 }

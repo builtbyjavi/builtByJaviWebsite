@@ -22,7 +22,7 @@ function Navbar() {
             <div className="navbar-container">
                 
                 <div className="menu-icon" onClick={handleClick}>
-                    {click ? <FaTimes/> : <FaBars/>}
+                    {click ? <FaTimes style={{color: "black"}}/> : <FaBars style={{color: "black"}}/>}
                 </div>
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -36,9 +36,9 @@ function Navbar() {
                             Portfolio
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item nav-logo-wrapper">
                     <Link to='/' className="navbar-logo nav-links" onClick={closeMobileMenu}>
-                        <img src="images/builtByJaviLogo.png" className="navbar-logo-img"></img>
+                        <img src="images/builtByJaviLogo.png" className="navbar-logo-img" alt="builtByJavi Logo"></img>
                         <p>HOME</p>
                     </Link>
                     </li>
