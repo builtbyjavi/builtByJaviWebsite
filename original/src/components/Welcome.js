@@ -11,7 +11,7 @@ function Welcome({
         <>
             <div className="home-container">
                 <div className="home-img-wrapper">
-                    <img src="/images/portrait.png" alt={alt} className="home-img"></img>  
+                    <img src="/images/portrait.jpg" alt={alt} className="home-img"></img>  
                 </div>
 
                 <div className="home-text-wrapper">
