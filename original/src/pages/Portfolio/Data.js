@@ -37,7 +37,7 @@ export const yelpCamp = {
   headLine: 'YelpCamp',
   description: 'Yelp-style website for campgrounds across the world',
   workPage: './Projects',
-  projectLink: 'https://www.serene-ocean-50336.herokuapp.com/',
+  projectLink: 'https://serene-ocean-50336.herokuapp.com/',
   img: 'images/yelpCamp.png',
   alt: 'yelpCamp website image'
 
@@ -48,7 +48,7 @@ export const weCedYouth = {
   headLine: 'WeCed Youth Media',
   description: "Front cover design for We'Ced Youth Media",
   workPage: './Projects',
-  projectLink: '',
+  projectLink: 'https://www.wecedyouth.org/',
   img: 'images/WeCedCover.jpg',
   alt: 'weced youth illustration'
 
@@ -59,7 +59,7 @@ export const mamaMarthas = {
   headLine: 'mama_marthas',
   description: 'Logo design for baked goods small business',
   workPage: './Projects',
-  projectLink: '',
+  projectLink: 'https://www.instagram.com/mama_marthas/',
   img: 'images/mamaMarthaLogo.png',
   alt: 'mamaMartha logo'
 };
@@ -69,7 +69,7 @@ export const amCafecito = {
   headLine: 'a.m.cafecito',
   description: 'Logo design for Instagram coffee blog',
   workPage: './Projects',
-  projectLink: '',
+  projectLink: 'https://www.instagram.com/a.m.cafecito/',
   img: 'images/logo.jpg',
   alt: 'amCafecito logo'
 };

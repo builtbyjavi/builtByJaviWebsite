@@ -22,7 +22,6 @@
     width: 100%;
     height: 100%;
     opacity: 25%;
-    z-index: 2;
 }
 
 .home-text-wrapper {
@@ -31,27 +30,25 @@
     justify-content: center;
     width: 100%;
     height: auto;
+    z-index: 3;
 }
 
 .home-header-1 {
     font-family: hackney;
     font-size: 15rem;
     padding: 50px;
-    z-index: 3;
 }
 
 .home-header-2 {
     font-family: hackney;
     font-size: 10rem;
     padding-top: 250px;
-    z-index: 3;
 }
 
 .home-header-3 {
     font-family: hackney;
     font-size: 15rem;
     padding: 50px;
-    z-index: 3;
 }
 
 

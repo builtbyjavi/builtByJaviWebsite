@@ -4,7 +4,7 @@ import './Welcome.css';
 
 function Welcome({
   
-    img, alt
+    alt
 
 }) {
     return (

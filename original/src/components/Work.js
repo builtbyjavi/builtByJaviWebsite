@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './Work.css';
 
 function Work(props) {
+
     return (
         <>  
             <div className="work-container">
@@ -12,8 +13,10 @@ function Work(props) {
                             {props.order}
                         </h3>
                     </div>
-                    <Link to={props.workPage} className="link-wrapper" 
-                        state={props}>
+                    <Link to={{
+                        pathname: props.workPage,
+                        state: props
+                        }} className="link-wrapper">
                         <h1 className="link-text">
                             {props.headLine}
                         </h1>
@@ -25,8 +28,10 @@ function Work(props) {
                     </div>
                 </div>  
                 <div className="work-img-wrapper">
-                    <Link to={props.workPage} className="img-link-wrapper" 
-                        state={props}>
+                    <Link to={{
+                        pathname: props.workPage,
+                        state: props
+                        }} className="img-link-wrapper">
                         <img src={props.img} alt={props.alt} className="work-img">
                         </img>
                     </Link>

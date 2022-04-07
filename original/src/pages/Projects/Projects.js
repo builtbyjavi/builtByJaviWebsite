@@ -1,17 +1,19 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
 import './Projects.css';
+import {useLocation} from 'react-router-dom';
 
 
-function Projects() { 
+function Projects(props) { 
 
+    
     const location = useLocation();
+    // console.log(location.state);
     
     return (
         <>
             <div className='project-container'>
-                {/* {console.log(location.state)} */}
-                <h1 className="project-link-text">project show page coming soon!</h1>
+                <h1 className="project-header">project show page coming soon!</h1>
+                <a href={location.state.projectLink} target='_blank' rel="noopener noreferrer" className="project-link-text">here's a link for now :)</a>
             </div>        
             
         </>
