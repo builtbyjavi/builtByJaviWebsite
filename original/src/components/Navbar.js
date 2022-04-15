@@ -1,63 +1,89 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FaBars, FaTimes} from 'react-icons/fa';
-import './Navbar.css';
-import {IconContext} from 'react-icons/lib';
-import '../index.css';
-import { useLocation } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./Navbar.css";
+import { IconContext } from "react-icons/lib";
+import "../index.css";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
+  const [click, setClick] = useState(false);
 
-    const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+  const location = useLocation();
 
-    const location = useLocation();
-    
+  return (
+    <>
+      <IconContext.Provider value={{ color: "fff" }}>
+        <div className="navbar-container">
+          <div className="menu-icon" onClick={handleClick}>
+            {click ? (
+              <FaTimes style={{ color: "black" }} />
+            ) : (
+              <FaBars style={{ color: "black" }} />
+            )}
+          </div>
 
-    return (
-        <>
-        <IconContext.Provider value={{color: 'fff'}}>
-            <div className="navbar-container">
-                
-                <div className="menu-icon" onClick={handleClick}>
-                    {click ? <FaTimes style={{color: "black"}}/> : <FaBars style={{color: "black"}}/>}
-                </div>
-
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className="nav-item">
-                        <Link to="/about" className={"nav-links" + (location === "/portfolio" ? "outlined" : '')} onClick={closeMobileMenu}>
-                            About
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
-                            Portfolio
-                        </Link>
-                    </li>
-                    <li className="nav-item nav-logo-wrapper">
-                    <Link to='/' className="navbar-logo nav-links" onClick={closeMobileMenu}>
-                        <img src="images/builtByJaviLogo.png" className="navbar-logo-img" alt="builtByJavi Logo"></img>
-                        <p>HOME</p>
-                    </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/interests" className="nav-links" onClick={closeMobileMenu}>
-                            Interests
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-                            Contact
-                        </Link>
-                    </li>
-                </ul>
-      
-            </div> 
-        </IconContext.Provider>
-        </>
-    );
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link
+                to="/about"
+                className={
+                  "nav-links" + (location === "/portfolio" ? "outlined" : "")
+                }
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/portfolio"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li className="nav-item nav-logo-wrapper">
+              <Link
+                to="/"
+                className="navbar-logo nav-links"
+                onClick={closeMobileMenu}
+              >
+                <img
+                  src="images/builtByJaviLogo.png"
+                  className="navbar-logo-img"
+                  alt="builtByJavi Logo"
+                ></img>
+                <p>HOME</p>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/interests"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Interests
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </IconContext.Provider>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
