@@ -7,7 +7,7 @@ function Contact() {
       <div className="contact-vid-wrapper">
         <video
           src="/videos/paperAirplane.mp4"
-          autoPlay
+          // autoPlay
           muted
           className="contact-vid"
         ></video>

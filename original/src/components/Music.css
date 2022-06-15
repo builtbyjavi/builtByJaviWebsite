@@ -133,9 +133,11 @@
 @media screen and (max-width: 500px) {
   .left-music-wrapper {
     width: 100%;
+    padding: 1.5rem 0;
   }
   .right-music-wrapper {
     width: 100%;
+    padding: 1.5rem 0;
   }
   .spotify {
     height: 30%;

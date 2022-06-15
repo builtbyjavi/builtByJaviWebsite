@@ -58,7 +58,7 @@
   }
 
   .home-text-wrapper {
-    display: inline-block;
+    display: block;
     width: 100%;
   }
 
@@ -68,11 +68,10 @@
   }
 
   .home-header-2 {
-    padding: 0;
-    margin: -50px 0 0 0;
-    padding-right: 3rem;
-    float: right;
+    padding: 0 3rem 0 0;
     font-size: 5rem;
+    width: 100%;
+    text-align: right;
   }
 
   .home-header-3 {

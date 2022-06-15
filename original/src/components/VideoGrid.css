@@ -92,4 +92,8 @@
   .grid-container {
     display: none;
   }
+
+  .video-grid-container {
+    padding: 2rem 0 0 0;
+  }
 }

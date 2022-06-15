@@ -49,4 +49,7 @@
   .works {
     font-size: 6rem;
   }
+  .arrow-wrapper {
+    padding: 0 1rem;
+  }
 }

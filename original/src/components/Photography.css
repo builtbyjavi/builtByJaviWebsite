@@ -53,13 +53,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  /* .grid-pic {
-    display: none;
-  }
-  .p-grid {
-    justify-content: center;
-  }
   .photo-grid-wrapper {
-    height: auto;
-  } */
+    padding: 1rem 0;
+  }
 }
