@@ -19,8 +19,8 @@ function Contact() {
             hi@builtbyjavi.com
           </a>{" "}
           <br />
-          for <br />
-          <strong className="strong"> opportunities</strong> <br />
+          for
+          <strong className="strong"> opportunities </strong>
           to <br />
         </h1>
         {/* <h1 className="contact-text">

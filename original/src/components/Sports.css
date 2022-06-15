@@ -3,6 +3,7 @@
   width: auto;
   padding: 2rem;
   display: flex;
+  flex-direction: column;
 }
 
 .right-sports-wrapper {
@@ -47,11 +48,14 @@
     flex-direction: column-reverse;
   }
 
-  .left-sports-wrapper {
-    flex-direction: column-reverse;
+  .highlight-1 {
   }
 
-  .highlight-1 {
-    margin: 0 0 3rem 0;
+  .highlight-2 {
+    margin: 0;
+  }
+
+  .highlight-3 {
+    margin-top: 2rem;
   }
 }

@@ -36,37 +36,34 @@
   font-family: oakes-grotesk;
   width: 100%;
   height: auto;
-  font-size: 5rem;
-  padding: 2rem 0;
+  font-size: 4rem;
+  line-height: 6rem;
+  padding-top: 2rem;
 }
 
 .email {
   text-decoration: none;
   color: black;
+  display: inline-block;
   position: relative;
-  border-bottom: 5px solid #ff4e33;
 }
 
 .email:after {
   content: "";
   position: absolute;
-  width: 0;
+  width: 100%;
+  transform: scaleX(0);
   height: 5px;
-  display: block;
-  right: 0;
-  background: #ff4e33;
-  transition: width 0.5s ease-out;
-  -webkit-transition: width 0.5s ease-out;
-}
-
-.email:hover {
-  border-bottom: 5px solid transparent;
+  bottom: 0;
+  left: 0;
+  background-color: #ff4e33;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 .email:hover:after {
-  width: 100%;
-  left: 0;
-  background: #ff4e33;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .strong {
@@ -78,7 +75,7 @@
   max-width: 100%;
   text-align: center;
   font-family: oakes-grotesk;
-  font-size: 6rem;
+  font-size: 5rem;
   padding: 2rem 0;
   color: #ff4e33;
   animation: pulse 3s infinite;
@@ -118,6 +115,6 @@
 
   .collaborate {
     font-size: 2.5rem;
-    padding: 0;
+    padding-top: 1rem;
   }
 }
