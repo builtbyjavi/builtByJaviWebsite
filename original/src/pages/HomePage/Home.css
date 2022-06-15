@@ -1,45 +1,52 @@
-
 .selected-works-container {
-    height: 100vh;
-    width: 100vw;
-    background-color:  #e9e9e9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .selected-works-wrapper {
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 0 5rem 0 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 5rem 0 5rem;
 }
 
 .selected {
-    font-family: hackney;
-    font-size: 10em;
+  font-family: hackney;
+  font-size: 10rem;
 }
 
 .works {
-    font-family: hackney;
-    font-size: 15em;
+  font-family: hackney;
+  font-size: 15rem;
 }
 
 .arrow-wrapper {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 3rem;
-    z-index: 4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3rem;
+  z-index: 4;
 }
 
 .scroll-arrow {
-    font-size: 4rem;
-    color: #c2c2c2;
+  font-size: 4rem;
+  color: #c2c2c2;
 }
 
 .scroll-arrow:hover {
-    color: #f00946;
+  color: #f00946;
+}
+
+@media screen and (max-width: 600px) {
+  .selected {
+    font-size: 3rem;
+  }
+  .works {
+    font-size: 6rem;
+  }
 }

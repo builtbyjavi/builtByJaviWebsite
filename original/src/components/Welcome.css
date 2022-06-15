@@ -37,25 +37,24 @@
 .home-header-1 {
   font-family: hackney;
   font-size: 15rem;
-  padding: 50px;
+  padding: 3rem;
 }
 
 .home-header-2 {
   font-family: hackney;
   font-size: 10rem;
-  padding-top: 250px;
+  padding-top: 5rem;
 }
 
 .home-header-3 {
   font-family: hackney;
   font-size: 15rem;
-  padding: 50px;
+  padding: 3rem;
 }
 
 @media screen and (max-width: 960px) {
   .home-container {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0 1rem;
   }
 
   .home-text-wrapper {
@@ -65,11 +64,23 @@
 
   .home-header-1 {
     padding-bottom: 0;
+    font-size: 8rem;
   }
 
   .home-header-2 {
     padding: 0;
     margin: -50px 0 0 0;
+    padding-right: 3rem;
     float: right;
+    font-size: 5rem;
+  }
+
+  .home-header-3 {
+    font-size: 8rem;
+    padding-top: 0;
+  }
+
+  .home-img-wrapper {
+    height: 60%;
   }
 }

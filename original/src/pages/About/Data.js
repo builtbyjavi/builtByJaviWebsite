@@ -12,9 +12,9 @@ export const homeObjOne = {
 
 export const bioObjOne = {
   imgStart: "",
-  img1: "images/aboutPortrait.png",
-  img2: "images/salinasFields.jpg",
-  img3: "images/doe1.jpg",
+  img1: "images/aboutPortrait.webp",
+  img2: "images/salinasFields.webp",
+  img3: "images/doe1.webp",
   alt1: "portrait",
   alt2: "portrait",
   alt3: "portrait",
