@@ -81,15 +81,23 @@
 }
 
 @media screen and (max-width: 600px) {
+  .home-text-wrapper {
+    padding: 0 2.5rem;
+    width: 100%;
+  }
+
   .home-header-1 {
     font-size: 8rem;
+    padding: 0;
   }
 
   .home-header-2 {
     font-size: 5rem;
+    padding: 0;
   }
 
   .home-header-3 {
     font-size: 8rem;
+    padding: 0;
   }
 }
