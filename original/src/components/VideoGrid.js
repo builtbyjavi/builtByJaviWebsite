@@ -20,6 +20,7 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
               muted
               playsInline
               loop
+              controls
               className="auto-video"
             ></video>
             <div className="grid-container">

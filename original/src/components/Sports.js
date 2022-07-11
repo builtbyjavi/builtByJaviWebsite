@@ -20,6 +20,7 @@ function Sports({ vid1, vid2, vid3 }) {
             muted
             playsInline
             loop
+            controls
             className="highlight-1"
             alt="soccer highlights"
           />
