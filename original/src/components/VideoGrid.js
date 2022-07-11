@@ -16,7 +16,9 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
           <div className="video-container">
             <video
               src="/videos/logoLapse.mp4"
+              autoPlay
               muted
+              playsInline
               loop
               className="auto-video"
             ></video>
@@ -27,7 +29,6 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
                   xs={3}
                   className="grid-item-wrapper grid-item-border1"
                 >
-                  {/* <h3 className="drawing-text">portrait</h3> */}
                   <Paper square={true} className="grid-item-paper">
                     <img
                       src={img1}
@@ -41,7 +42,6 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
                   xs={6}
                   className="grid-item-wrapper grid-item-border2"
                 >
-                  {/* <h3 className="drawing-text">portrait</h3> */}
                   <Paper square={true} className="grid-item-paper">
                     <img
                       src={img2}
@@ -55,7 +55,6 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
                   xs={3}
                   className="grid-item-wrapper grid-item-border3"
                 >
-                  {/* <h3 className="drawing-text">portrait</h3> */}
                   <Paper square={true} className="grid-item-paper">
                     <img
                       src={img3}
@@ -69,7 +68,6 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
                   xs={6}
                   className="grid-item-wrapper grid-item-border4"
                 >
-                  {/* <h3 className="drawing-text">portrait</h3> */}
                   <Paper square={true} className="grid-item-paper">
                     <img
                       src={img4}
@@ -83,7 +81,6 @@ function VideoGrid({ img1, img2, img3, img4, img5 }) {
                   xs={6}
                   className="grid-item-wrapper grid-item-border5"
                 >
-                  {/* <h3 className="drawing-text">portrait</h3> */}
                   <Paper square={true} className="grid-item-paper">
                     <img
                       src={img5}

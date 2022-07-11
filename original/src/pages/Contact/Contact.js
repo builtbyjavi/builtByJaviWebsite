@@ -7,8 +7,9 @@ function Contact() {
       <div className="contact-vid-wrapper">
         <video
           src="/videos/paperAirplane.mp4"
-          // autoPlay
+          autoPlay
           muted
+          playsInline
           className="contact-vid"
         ></video>
       </div>
@@ -23,9 +24,6 @@ function Contact() {
           <strong className="strong"> opportunities </strong>
           to <br />
         </h1>
-        {/* <h1 className="contact-text">
-                    
-                </h1> */}
         <h1 className="collaborate">COLLABORATE</h1>
       </div>
     </div>

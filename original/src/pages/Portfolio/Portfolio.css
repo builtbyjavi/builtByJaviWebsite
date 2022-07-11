@@ -39,4 +39,8 @@
   .p-works {
     font-size: 6rem;
   }
+
+  .portfolio-work-container {
+    padding: 2rem 0;
+  }
 }

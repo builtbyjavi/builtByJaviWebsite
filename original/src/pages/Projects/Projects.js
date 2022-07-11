@@ -9,13 +9,13 @@ function Projects(props) {
     <>
       <div className="project-container">
         <h1 className="project-header">project show page coming soon!</h1>
+        <h2 className="project-link-text">here's a link for now :)</h2>
         <a
           href={location.state.projectLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="project-link-text"
         >
-          here's a link for now :)
+          <button className="project-btn">View Project</button>
         </a>
       </div>
     </>

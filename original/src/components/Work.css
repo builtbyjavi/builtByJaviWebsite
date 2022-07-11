@@ -93,7 +93,7 @@
 @media screen and (max-width: 500px) {
   .work-container {
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 1.5rem;
   }
 
   .work-text-wrapper {

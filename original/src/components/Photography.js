@@ -84,6 +84,15 @@ function Photography({ pimg1, pimg2, pimg3 }) {
           </Grid>
         </Grid>
       </div>
+      <div className="flickr-link">
+        <a
+          href="https://flic.kr/ps/3YybVp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="photo-btn">View Photos</button>
+        </a>
+      </div>
     </div>
   );
 }

@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100%;
   display: flex;
+  background-color: #e9e9e9;
   align-items: center;
   justify-content: center;
 }
@@ -9,10 +10,8 @@
 .contact-vid-wrapper {
   height: 100vh;
   width: 100%;
-  background: #e9e9e9;
   position: absolute;
   z-index: -1;
-  /* padding-top: 20rem; */
 }
 
 .contact-vid {
@@ -61,10 +60,10 @@
   transition: transform 0.25s ease-out;
 }
 
-.email:hover:after {
+/* .email:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 
 .strong {
   color: white;
@@ -103,9 +102,6 @@
   .contact-wrapper {
     padding: 2rem;
   }
-  .contact-vid-wrapper {
-    display: none;
-  }
 
   .contact-container {
     background-color: #e9e9e9;
@@ -119,5 +115,9 @@
   .collaborate {
     font-size: 2.5rem;
     padding-top: 1rem;
+  }
+
+  .email {
+    text-decoration: underline #ff4e33;
   }
 }

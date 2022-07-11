@@ -16,8 +16,9 @@ function Sports({ vid1, vid2, vid3 }) {
           </div>
           <video
             src={vid1}
-            // autoPlay
+            autoPlay
             muted
+            playsInline
             loop
             className="highlight-1"
             alt="soccer highlights"

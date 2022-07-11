@@ -52,8 +52,19 @@
   transform: translate3d(0px, -4px, 0px);
 }
 
+.flickr-link {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   .photo-grid-wrapper {
-    padding: 1rem 0;
+    display: none;
+  }
+  .flickr-link {
+    display: inline-block;
+  }
+  .photo-btn {
+    margin: 2rem;
+    padding: 0.75rem 2rem;
   }
 }
