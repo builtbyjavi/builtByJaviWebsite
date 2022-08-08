@@ -4,7 +4,7 @@ export const javiMusiq = {
   description: "Personal artist website",
   workPage: "./Projects",
   projectLink: "https://www.javimusiq.com",
-  img: "images/website-img.jpg",
+  img: "images/website-img.webp",
   alt: "javiMusiq website image",
 };
 
@@ -14,7 +14,7 @@ export const jMWise = {
   description: "E-Commerce Squarespace site for author J.M.Wise",
   workPage: "./Projects",
   projectLink: "https://www.jmwisewriting.com",
-  img: "images/jmwise.jpg",
+  img: "images/jmwise.webp",
   alt: "jmwise website image",
 };
 
@@ -24,7 +24,7 @@ export const cesarPacheco = {
   description: "Real estate contact webpage for Cesar Pacheco",
   workPage: "./Projects",
   projectLink: "https://www.cesarpacheco.com",
-  img: "images/cesarpacheco.jpg",
+  img: "images/cesarpacheco.webp",
   alt: "cesar pacheco website image",
 };
 
@@ -34,36 +34,6 @@ export const yelpCamp = {
   description: "Yelp-style website for campgrounds across the world",
   workPage: "./Projects",
   projectLink: "https://serene-ocean-50336.herokuapp.com/",
-  img: "images/yelpCamp.jpg",
+  img: "images/yelpCamp.webp",
   alt: "yelpCamp website image",
-};
-
-export const weCedYouth = {
-  order: "5/",
-  headLine: "WeCed Youth Media",
-  description: "Front cover design for We'Ced Youth Media",
-  workPage: "./Projects",
-  projectLink: "https://www.wecedyouth.org/",
-  img: "images/WeCedCover.jpg",
-  alt: "weced youth illustration",
-};
-
-export const mamaMarthas = {
-  order: "6/",
-  headLine: "mama_marthas",
-  description: "Logo design for baked goods small business",
-  workPage: "./Projects",
-  projectLink: "https://www.instagram.com/mama_marthas/",
-  img: "images/mamaMarthaLogo.png",
-  alt: "mamaMartha logo",
-};
-
-export const amCafecito = {
-  order: "7/",
-  headLine: "a.m.cafecito",
-  description: "Logo design for Instagram coffee blog",
-  workPage: "./Projects",
-  projectLink: "https://www.instagram.com/a.m.cafecito/",
-  img: "images/logo.jpg",
-  alt: "amCafecito logo",
 };

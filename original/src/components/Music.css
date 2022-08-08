@@ -1,106 +1,145 @@
 .header-text-wrapper {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .left-music-wrapper {
-    width: 50%;
-    height: 100%;
-    align-self: flex-start;
-    padding: 1.5rem;
+  width: 50%;
+  height: 100%;
+  align-self: flex-start;
+  padding: 1.5rem;
 }
 
-.performance-1 {
-    width: 100%;
-    height: auto;
-}
-
-.performance-2 {
-    width: 100%;
-    height: auto;
+.youtube {
+  width: 100%;
+  height: auto;
 }
 
 .right-music-wrapper {
-    width: 50%;
-    height: 100%;
-    padding: 1.5rem;
+  width: 50%;
+  height: 100%;
+  padding: 1.5rem;
 }
 
-.right-music-wrapper iframe{
-    min-height: 300px;
+.right-music-wrapper iframe {
+  min-height: 300px;
 }
 
 .music-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
 }
 
 .arrows-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
 }
 
 .music-desc-link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .music-desc-link:hover {
-    color: #f00946;
+  color: #f00946;
 }
 
 .website-wrapper {
-    width: 100%;
-    padding-top: 1rem;
+  width: 100%;
+  padding-top: 1rem;
 }
 
 .website-img {
-    height: auto;
-    width: 100%; 
+  height: auto;
+  width: 100%;
 }
 
 .website-img:hover {
-    box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;;
-    transform: translate3d(0px, -4px, 0px);
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+  transform: translate3d(0px, -4px, 0px);
 }
 
 .arrow-1 {
-    animation: color-1 1.5s infinite;
-    font-size: 24px;
+  animation: color-1 1.5s infinite;
+  font-size: 24px;
 }
 
 @keyframes color-1 {
-    0% { color: black; }
-    15% { color: black; }
-    20% { color: #f00946; }
-    60% { color: black; }
-    100% { color: black; }
+  0% {
+    color: black;
+  }
+  15% {
+    color: black;
+  }
+  20% {
+    color: #f00946;
+  }
+  60% {
+    color: black;
+  }
+  100% {
+    color: black;
+  }
 }
 
 .arrow-2 {
-    animation: color-2 1.5s infinite;
-    font-size: 24px;
+  animation: color-2 1.5s infinite;
+  font-size: 24px;
 }
 
 @keyframes color-2 {
-    0% { color: black; }
-    25% { color: black; }
-    30% { color: #f00946; }
-    80% { color: black; }
-    100% { color: black; }
+  0% {
+    color: black;
+  }
+  25% {
+    color: black;
+  }
+  30% {
+    color: #f00946;
+  }
+  80% {
+    color: black;
+  }
+  100% {
+    color: black;
+  }
 }
 
 .arrow-3 {
-    animation: color-3 1.5s infinite;
-    font-size: 24px;
+  animation: color-3 1.5s infinite;
+  font-size: 24px;
 }
 
 @keyframes color-3 {
-    0% { color: black; }
-    35% { color: black; }
-    40% { color: #f00946; }
-    60% { color: black; }
-    100% { color: black; }
+  0% {
+    color: black;
+  }
+  35% {
+    color: black;
+  }
+  40% {
+    color: #f00946;
+  }
+  60% {
+    color: black;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left-music-wrapper {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .right-music-wrapper {
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .spotify {
+    height: 30%;
+  }
 }

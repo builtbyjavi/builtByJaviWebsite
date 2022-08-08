@@ -37,39 +37,67 @@
 .home-header-1 {
   font-family: hackney;
   font-size: 15rem;
-  padding: 50px;
+  padding: 3rem;
 }
 
 .home-header-2 {
   font-family: hackney;
   font-size: 10rem;
-  padding-top: 250px;
+  padding-top: 5rem;
 }
 
 .home-header-3 {
   font-family: hackney;
   font-size: 15rem;
-  padding: 50px;
+  padding: 3rem;
 }
 
 @media screen and (max-width: 960px) {
-  .home-container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
   .home-text-wrapper {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    width: 75%;
   }
 
   .home-header-1 {
     padding-bottom: 0;
+    font-size: 10rem;
   }
 
   .home-header-2 {
+    padding: 1rem 3rem 0 0;
+    font-size: 8rem;
+    width: 100%;
+    text-align: right;
+  }
+
+  .home-header-3 {
+    font-size: 10rem;
+    padding-top: 0;
+  }
+
+  .home-img-wrapper {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-text-wrapper {
+    padding: 0 2.5rem;
+    width: 100%;
+  }
+
+  .home-header-1 {
+    font-size: 8rem;
     padding: 0;
-    margin: -50px 0 0 0;
-    float: right;
+  }
+
+  .home-header-2 {
+    font-size: 5rem;
+    padding: 0;
+  }
+
+  .home-header-3 {
+    font-size: 8rem;
+    padding: 0;
   }
 }
