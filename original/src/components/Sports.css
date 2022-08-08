@@ -21,6 +21,7 @@
 
 .sports-text-wrapper {
     width: fit-content;
+    text-align: left;
 }
 
 .highlight-1 {
@@ -46,6 +47,10 @@
 
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 500px) {
   .sports-wrapper {
     flex-direction: column-reverse;
@@ -55,10 +60,11 @@
     padding: 2rem 0;
   }
   .right-sports-wrapper {
-    padding: 2rem 0 0 0;
+    padding: 0;
   }
 
   .highlight-1 {
+    margin-bottom: 2rem;
   }
 
   .highlight-2 {

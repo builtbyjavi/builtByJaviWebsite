@@ -3,21 +3,26 @@
 }
 
 .left-music-wrapper {
-  width: 50%;
   height: 100%;
-  align-self: flex-start;
   padding: 1.5rem;
+  flex: 1 0;
 }
 
 .youtube {
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+.spotify {
+  max-height: 300px;
+  width: 100%;
+  min-height: 100px !important;
 }
 
 .right-music-wrapper {
-  width: 50%;
   height: 100%;
   padding: 1.5rem;
+  flex: 1 0;
 }
 
 .right-music-wrapper iframe {
@@ -28,6 +33,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
+  text-align: center;
 }
 
 .arrows-container {
@@ -133,13 +139,13 @@
 @media screen and (max-width: 500px) {
   .left-music-wrapper {
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 0;
   }
   .right-music-wrapper {
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 2rem 0 0 0;
   }
   .spotify {
-    height: 30%;
+    height: 100px;
   }
 }
