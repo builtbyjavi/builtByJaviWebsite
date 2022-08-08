@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     padding: 4rem;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 .work-text-wrapper {
