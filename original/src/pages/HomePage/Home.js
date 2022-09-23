@@ -2,7 +2,7 @@ import React from 'react';
 import Welcome from '../../components/Welcome';
 import Work from '../../components/Work';
 import {homeObjOne} from './Data';
-import {javiMusiq, jMWise, yelpCamp} from '../Portfolio/Data';
+import {jMWise, yelpCamp} from '../Portfolio/Data';
 import './Home.css';
 import { HashLink as Link } from 'react-router-hash-link'; 
 import { RiArrowDownLine } from 'react-icons/ri';
@@ -33,9 +33,16 @@ function Home() {
                 </div>
             </div>
             <div id="next2">
-                <Work {...javiMusiq} />
                 <Work {...yelpCamp} />
                 <Work {...jMWise} />
+            </div>
+            <div className='btn-wrapper'>
+                <Link to='./Portfolio'>
+                <button className='btn'>
+                    View All Projects
+                </button>
+                </Link>
+                
             </div>
         </>
     );

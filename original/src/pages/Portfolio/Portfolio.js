@@ -22,9 +22,9 @@ function Portfolio() {
         </div>
       </section>
       <section className="portfolio-work-container" id="next">
-        <Work {...javiMusiq} />
         <Work {...yelpCamp} />
         <Work {...jMWise} />
+        <Work {...javiMusiq} />
         <Work {...cesarPacheco} />
       </section>
     </>
