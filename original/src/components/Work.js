@@ -25,15 +25,9 @@ function Work(props) {
           </div>
         </div>
         <div className="work-img-wrapper">
-          <Link
-            to={{
-              pathname: props.workPage,
-              state: props,
-            }}
-            className="img-link-wrapper"
-          >
+          <a href={props.projectLink} target="_blank" rel="noopener noreferrer">
             <img src={props.img} alt={props.alt} className="work-img"></img>
-          </Link>
+          </a>
         </div>
       </div>
     </>
