@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaYoutube, FaLinkedin, FaBehance, FaDribbble } from "react-icons/fa";
+import { FaYoutube, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
 import { GiHand } from "react-icons/gi";
 
 function Footer() {
@@ -29,12 +29,12 @@ function Footer() {
             </a>
             <a
               className="social-icon-link"
-              href="https://www.behance.net/builtbyjavi"
+              href="https://www.github.com/builtbyjavi"
               target="_blank"
               aria-label="Behance"
               rel="noopener noreferrer"
             >
-              <FaBehance />
+              <FaGithub />
             </a>
             <a
               className="social-icon-link"
@@ -45,7 +45,7 @@ function Footer() {
             >
               <FaLinkedin />
             </a>
-            <a
+            {/* <a
               className="social-icon-link"
               href="https://dribbble.com/builtByJavi"
               target="_blank"
@@ -53,7 +53,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <FaDribbble />
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
