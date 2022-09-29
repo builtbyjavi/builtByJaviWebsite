@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { FaYoutube, FaLinkedin, FaGithub, FaDribbble } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { IoDocumentText } from "react-icons/io5";
 import { GiHand } from "react-icons/gi";
 
 function Footer() {
@@ -20,18 +21,18 @@ function Footer() {
           <div className="social-icons">
             <a
               className="social-icon-link"
-              href="https://www.youtube.com/channel/UC8ctY8xrQV-TZiiorJh1KKA"
+              href="https://resume-16375.web.app/"
               target="_blank"
-              aria-label="Youtube"
+              aria-label="Resume"
               rel="noopener noreferrer"
             >
-              <FaYoutube />
+              <IoDocumentText />
             </a>
             <a
               className="social-icon-link"
               href="https://www.github.com/builtbyjavi"
               target="_blank"
-              aria-label="Behance"
+              aria-label="GitHub"
               rel="noopener noreferrer"
             >
               <FaGithub />

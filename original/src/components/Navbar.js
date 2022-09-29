@@ -54,10 +54,10 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 <img
-                  src="images/builtByJaviLogo.png"
+                  src="/images/builtByJaviLogo.png"
                   className="navbar-logo-img"
                   alt="builtByJavi Logo"
-                ></img>
+                />
                 <p>HOME</p>
               </Link>
             </li>

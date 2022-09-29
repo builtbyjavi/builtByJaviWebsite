@@ -8,6 +8,7 @@ import About from "./pages/About/About";
 import Interests from "./pages/Interests/Interests";
 import Contact from "./pages/Contact/Contact";
 import ScrollToTop from "./scrollToTop";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/interests" component={Interests} />
           <Route path="/contact" component={Contact} />
+          <Route path="/*" component={NotFound} />
         </Switch>
         <Footer />
       </ScrollToTop>
