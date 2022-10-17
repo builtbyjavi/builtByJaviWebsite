@@ -1,12 +1,11 @@
 .work-container {
-    background-color: #f5f5f5;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 5rem 5rem 10rem 5rem;
-    max-width: 2000px;
-    margin: 0 auto;
-
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5rem 5rem 10rem 5rem;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .work-text-wrapper {
@@ -35,7 +34,7 @@
 }
 
 .project-btn {
-  padding: 0.75rem 2rem!important;
+  padding: 0.75rem 2rem !important;
 }
 
 .desc-wrapper {
@@ -69,7 +68,6 @@
   border-radius: 10px;
   width: 700px;
   height: 400px;
-  
 }
 
 .work-img:hover {
@@ -78,13 +76,10 @@
 }
 
 @media screen and (max-width: 1100px) {
-
   .work-img {
     width: 450px;
     height: 250px;
   }
-
-
 }
 
 @media screen and (max-width: 800px) {
@@ -97,18 +92,23 @@
     padding: 1.5rem;
   }
 
-  .work-img-wrapper{
+  .work-img-wrapper {
     align-self: center !important;
   }
 }
 
 @media screen and (max-width: 500px) {
-  
-
   .work-text-wrapper {
-    padding: 0;
+    padding-bottom: 2rem;
+    padding-right: 0;
   }
 
+  .work-img-wrapper {
+    max-width: 100%;
+  }
+  .work-img-wrapper img {
+    width: 100%;
+  }
   .fraction {
     font-size: 3rem;
   }

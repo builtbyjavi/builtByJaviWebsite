@@ -18,6 +18,7 @@ function Sports({ vid1, vid2, vid3 }) {
             autoPlay
             muted
             loop
+            playsinline
             className="highlight-1"
             alt="soccer highlights"
           />
